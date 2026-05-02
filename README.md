@@ -3,7 +3,7 @@
 Code and de-identified datasets to reproduce the main figures and machine learning analyses from:
 
 > **Interictal spike rates track acute changes in cortical excitability during stimulation in drug-resistant epilepsy**
-> Carlos A. Aguila, Zican Zhuo, Sarah B. Lavelle, William K.S. Ojemann, Juri Kim, Sasan Sedighi Mournani, Alfredo Lucas, Nishant Sinha, Odile Feys, Kathryn A. Davis, Brian Litt, Erin C. Conrad
+> Carlos A. Aguila, Zican Zhuo, Sarah B. Lavelle, William K.S. Ojemann, Juri Kim, Katherine G Walsh, Sasan Sedighi Mournani, Alfredo Lucas, Nishant Sinha, Odile Feys, Kathryn A. Davis, Brian Litt, Erin C. Conrad
 >
 > Correspondence: Carlos A. Aguila — aguilac@seas.upenn.edu
 
