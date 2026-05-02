@@ -1,0 +1,44 @@
+subject_id,stim_sz_in_mtl,region,lateralization,mtl,EC_any_mtl,EC_only_mtl
+sub_040,No,multifocal,left,no,yes,no
+sub_023,No,mesial temporal,bilateral,yes,yes,yes
+sub_036,No,mesial temporal,right,yes,yes,yes
+sub_013,No,mesial temporal,right,yes,yes,yes
+sub_039,No,mesial temporal,left,yes,yes,yes
+sub_014,Yes,mesial temporal,bilateral,yes,yes,yes
+sub_012,Yes,temporal neocortical,right,no,no,no
+sub_007,Yes,mesial temporal,left,yes,yes,yes
+sub_021,Yes,mesial temporal,left,yes,yes,yes
+sub_009,No,multifocal,bilateral,no,yes,no
+sub_031,No,temporal,left,no,no,no
+sub_022,No,temporal,bilateral,no,yes,no
+sub_037,Yes,mesial temporal,left,yes,yes,yes
+sub_006,No,other cortex,right,no,no,no
+sub_010,No,other cortex,right,no,no,no
+sub_008,Yes,temporal,bilateral,yes,yes,no
+sub_004,Yes,multifocal,bilateral,no,yes,no
+sub_001,No,multifocal,left,no,yes,no
+sub_005,Yes,mesial temporal,right,yes,yes,yes
+sub_030,No,temporal neocortical,left,no,no,no
+sub_041,No,multifocal,right,no,yes,no
+sub_003,No,multifocal,bilateral,no,no,no
+sub_033,Yes,mesial temporal,right,yes,yes,yes
+sub_043,No,other cortex,left,no,no,no
+sub_002,Yes,temporal,left,yes,yes,yes
+sub_017,No,temporal neocortical,left,no,no,no
+sub_042,Yes,temporal,left,yes,yes,yes
+sub_016,No,,left,no,no,no
+sub_026,No,temporal neocortical,left,no,no,no
+sub_015,Yes,other cortex,right,no,no,no
+sub_024,Yes,temporal,left,yes,yes,no
+sub_029,No,temporal neocortical,left,no,no,no
+sub_025,No,mesial temporal,right,yes,yes,yes
+sub_032,No,,right,yes,yes,no
+sub_035,Yes,,bilateral,no,no,no
+sub_034,No,other cortex,left,no,no,no
+sub_027,No,mesial temporal,left,yes,yes,yes
+sub_020,No,mesial temporal,left,yes,yes,yes
+sub_018,Yes,mesial temporal,right,yes,yes,yes
+sub_011,No,other cortex,right,no,no,no
+sub_038,No,mesial temporal,right,yes,yes,yes
+sub_028,No,,bilateral,no,no,no
+sub_019,Yes,temporal neocortical,left,no,no,no

@@ -1,0 +1,38 @@
+# Custom Matplotlib Style
+
+# Notes:
+# - Transparent backgrounds (alpha=0 or savefig.transparent=True) can cause issues with PDF import/fidelity.
+# - Non-standard fonts (like Arial) may not embed properly in PDFs, leading to font substitution.
+# - Very high DPI is irrelevant for vector (PDF) output, but is important for raster (PNG) output for posters.
+# - Some PDF viewers may not render semi-transparent elements as expected.
+
+axes.facecolor       : white         # Avoid transparency for PDF fidelity
+axes.labelpad        : 1
+axes.labelsize       : 7
+axes.linewidth       : 0.5
+axes.spines.right    : False
+axes.spines.top      : False
+figure.dpi           : 400           # Normal display DPI
+figure.autolayout    : True
+figure.facecolor     : white         # Avoid transparency for PDF fidelity
+font.family          : DejaVu Sans   # Use a font that is always embedded in matplotlib PDFs
+font.size            : 7
+lines.linewidth      : 0.5
+savefig.dpi          : 400           # High DPI only when saving
+savefig.pad_inches   : 0.02
+savefig.transparent  : False         # Avoid transparency for PDF fidelity
+xtick.labelsize      : 5
+xtick.major.pad      : 1
+xtick.major.size     : 2
+xtick.major.width    : 0.5
+ytick.labelsize      : 5
+ytick.major.pad      : 1
+ytick.major.size     : 2
+ytick.major.width    : 0.5
+legend.fontsize         : 5
+legend.frameon          : False
+legend.loc              : upper right
+legend.handlelength     : 1
+legend.handletextpad    : 0.5
+legend.borderpad        : 0.5
+legend.labelspacing     : 0.5
