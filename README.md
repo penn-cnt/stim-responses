@@ -40,22 +40,16 @@ stim-responses/
 
 ### Requirements
 
-- Python 3.12
-- pip
+- [Anaconda](https://www.anaconda.com/download) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
-### Install dependencies
-
-Create and activate a virtual environment, then install:
+### Create the environment
 
 ```bash
-python3.12 -m venv venv
-source venv/bin/activate        # macOS / Linux
-# venv\Scripts\activate         # Windows
-
+conda create -n stim-responses python=3.12
+conda activate stim-responses
+conda install pip
 pip install -r requirements.txt
 ```
-
-All packages and their exact versions are listed in `requirements.txt`. No conda is required.
 
 ### Register the kernel (for notebook use)
 
