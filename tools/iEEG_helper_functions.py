@@ -363,27 +363,6 @@ def decompose_labels(chLabel, name):
     # Switch HIPP to DH, AMY to DA
     label_str = label_str.replace('HIPP', 'DH')
     label_str = label_str.replace('AMY', 'DA')
-
-    # Dumb fixes specific to individual patients
-    if name == 'HUP099':
-        if label_str.startswith('R'):
-            label_str = label_str[1:]
-
-    if name == 'HUP189':
-        label_str = label_str.replace('Gr', 'G')
-
-    if name == 'HUP106':
-        label_str = label_str.replace('LDA', 'LA')
-        label_str = label_str.replace('LDH', 'LH')
-        label_str = label_str.replace('RDA', 'RA')
-        label_str = label_str.replace('RDH', 'RH')
-
-    if (name == 'HUP086') | (name == 'HUP078'):
-        label_str = label_str.replace('Grid', 'LG')
-
-    if name == 'HUP075':
-        label_str = label_str.replace('Grid', 'G')
-
     clean_label = label_str
 
     if 'Fp1' in label_str.lower():
